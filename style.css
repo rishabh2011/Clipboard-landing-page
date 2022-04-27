@@ -1,0 +1,189 @@
+/* CSS FILE ORGANISATION.
+--> The file is organised into three sections : 
+1. Section 1 is default HTML ELEMENTS.
+2. Section 2 is bootstrap classes and ids.
+3. Section 3 is custom created classes and ids.
+--> The user created css code appears in the same order as seen in the html file.
+--> css properties are ordered in an alphabetical order
+*/
+
+/* ################################ SECTION 1 ###################################### */
+
+/* ===================================
+========== HTML ELEMENTS ==========
+=================================== */
+body {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  line-height: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h6 {
+  padding-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  padding-top: 10px;
+}
+
+/* ################################ SECTION 2 ###################################### */
+
+/* ===================================
+============ BOOTSTRAP ============
+=================================== */
+.container-fluid {
+  position: relative;
+  bottom: 250px;
+  padding: 0px 0px;
+}
+
+/* .row {
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
+/* ################################ SECTION 3 ###################################### */
+
+/* ============================================
+========== CUSTOM CLASSES AND IDS ==========
+============================================ */
+.bg-img {
+  max-width: 100%;
+}
+
+#title {
+  margin-bottom: 150px;
+}
+
+#features {
+  margin-bottom: 100px;
+}
+
+#accessibility {
+  margin-bottom: 50px;
+}
+
+#tools {
+  margin-bottom: 100px;
+}
+
+#tools img {
+  margin-bottom: 30px;
+}
+
+#press {
+  margin-bottom: 100px;
+}
+
+#download {
+  margin-bottom: 100px;
+}
+
+#contact {
+  padding: 40px 0px 15px;
+  background-color: hsl(207, 44%, 95%);
+}
+
+.logo {
+  margin-bottom: 5%;
+}
+
+.download-btn {
+  border: none;
+  border-radius: 28px;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  margin: 0px 5px;
+  position: relative;
+  bottom: 25px;
+}
+
+.btn-bg-cyan {
+  background: hsl(171, 66%, 44%);
+}
+
+.btn-bg-lightBlue {
+  background: hsl(233, 100%, 69%);
+}
+
+.center-align {
+  width: 45%;
+  position: relative;
+  left: 28%;
+  margin-bottom: 60px;
+}
+
+.right-align {
+  width: 60%;
+  text-align: left;
+  position: relative;
+  left: 10%;
+  margin-top: 75px;
+}
+
+.img-max {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#press img {
+  margin: 0px 80px;
+  width: 120px;
+}
+
+.logo-sm {
+  width: 50px;
+}
+
+.txt-align {
+  text-align: left;
+}
+
+.contact-img {
+  margin: 0px 10px;
+}
+
+@media (max-width: 1000px) {
+  #press img {
+    margin: 40px 100px;
+    width: 120px;
+  }
+
+  .download-btn {
+    display: block;
+    margin: 20px 0px;
+    left: 16%;
+    padding: 10px 100px 10px 100px;
+  }
+
+  .center-align {
+    width: 60%;
+    left: 23%;
+  }
+
+  .right-align {
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 23%;
+    margin-top: 75px;
+  }
+
+  .txt-align {
+    text-align: center;
+  }
+}
